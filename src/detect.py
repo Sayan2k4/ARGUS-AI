@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 
 WANTED_CLASSES = {"car", "truck", "bus", "motorcycle", "person"}
-BOX_COLOUR     = (0, 200, 255)   # BGR yellow-orange
+BOX_COLOUR     = (0, 200, 255)   
 FONT           = cv2.FONT_HERSHEY_SIMPLEX
 FONT_SCALE     = 0.5
 THICKNESS      = 2
@@ -13,11 +13,8 @@ CONF_THRESHOLD = 0.40
 
 
 def run_detection(video_path: str, output_path: str, model_path: str = "models/yolov8n.pt"):
-    """
-    Run YOLOv8 on a video file, draw boxes for WANTED_CLASSES,
-    write annotated output video.
-    """
-    model = YOLO(model_path)   # downloads yolov8n.pt on first run if not found
+
+    model = YOLO(model_path)   
     cap   = cv2.VideoCapture(video_path)
 
     if not cap.isOpened():
