@@ -1,4 +1,4 @@
-# 🚦 ARGUS AI
+#  ARGUS AI
 
 > **AI-Powered Traffic Intelligence Engine for Indian Roads**
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 ARGUS AI is a modular AI-powered traffic intelligence system designed to detect, track, and analyze vehicles in real time.
 
@@ -18,15 +18,15 @@ The long-term vision is to build an intelligent traffic monitoring platform capa
 
 ---
 
-## ✨ Current Features
+##  Current Features
 
-- ✅ Vehicle Detection
-- ✅ Person Detection
-- ✅ Multi Object Tracking
+-  Vehicle Detection
+-  Person Detection
+-  Multi Object Tracking
 
 ---
 
-## 🚧 Upcoming Features
+##  Upcoming Features
 
 - Helmet Detection
 - Triple Riding Detection
@@ -37,7 +37,7 @@ The long-term vision is to build an intelligent traffic monitoring platform capa
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
 Traffic Video
@@ -62,7 +62,7 @@ Dashboard
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Python
 - YOLOv8
@@ -72,7 +72,7 @@ Dashboard
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 src/
@@ -88,7 +88,7 @@ data/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/Sayan2k4/ARGUS-AI.git
@@ -116,7 +116,7 @@ python src/track.py --video data/raw/sample1.mp4
 
 ---
 
-## 📈 Development Progress
+##  Development Progress
 
 - [x] Vehicle Detection
 - [x] Multi Object Tracking
@@ -129,13 +129,13 @@ python src/track.py --video data/raw/sample1.mp4
 
 ---
 
-## 📄 License
+##  License
 
 MIT License
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sayan Sarkar**
 
