@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run Vehicle Detection
+##  Run Vehicle Detection
 
 ```bash
 python src/detect.py --video data/raw/sample1.mp4
@@ -108,7 +108,7 @@ python src/detect.py --video data/raw/sample1.mp4
 
 ---
 
-## ▶️ Run Multi Object Tracking
+##  Run Multi Object Tracking
 
 ```bash
 python src/track.py --video data/raw/sample1.mp4
