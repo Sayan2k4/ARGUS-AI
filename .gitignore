@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+venv/
+.env
+*.pt
+*.pth
+outputs/snapshots/*.jpg
+demos/*.mp4
+data/raw/*.mp4
